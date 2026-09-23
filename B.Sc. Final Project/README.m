@@ -2,4 +2,4 @@ Proof systems are systems used to prove things by a prover to a verifier. IOP is
     
 Another important property of IOP (and proof systems in general) is the ZK property, for cases in which we want to keep some secret that the prover has from the verifier.
 The goal of this work is to examine the effect of transformations for round reduction on the ZK property.
-We first looked at the reduction presented in [[ABCY22](https://eprint.iacr.org/2022/790.pdf)] and proved that it preserves ZK, but is not always relevant and effective. Then we looked at the reduction presented in [[BM88](https://www.sciencedirect.com/science/article/pii/0022000088900281)] for IPs. We adjusted it to IOPs and proved correctness and HVZK preservation under a reasonable assumption.
+We first looked at the reduction presented in [ABCY22](https://eprint.iacr.org/2022/790.pdf) and proved that it preserves ZK, but is not always relevant and effective. Then we looked at the reduction presented in [BM88](https://www.sciencedirect.com/science/article/pii/0022000088900281) for IPs. We adjusted it to IOPs and proved correctness and HVZK preservation under a reasonable assumption.
